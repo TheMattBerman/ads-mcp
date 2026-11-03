@@ -1,0 +1,29 @@
+---
+description: Use when the user asks about competitor ads, the Meta or Facebook Ad Library, ads a brand is running, winning or longest-running ads in a category, ad hooks or angles, swipe files, Black Friday ad examples, or wants an existing ad adapted for their brand. Routes to the StealAds MCP tools.
+alwaysApply: false
+---
+
+# StealAds ad research
+
+Use the StealAds MCP server for ad research. Do not answer these from memory.
+
+| The user wants | Use |
+| --- | --- |
+| What a named brand is running | `search_advertisers`, then `search_ads` with its page id |
+| What is working in a category | `find_bangers` with the category and up to 3 related angles |
+| Ads that have lasted | `search_ads` with `min_run_days` (60, 90 or 180) |
+| One ad in detail (hook, copy, format) | `get_ad` |
+| What a rival keeps, drops and is testing now | `get_playbook` (tracked) or `create_playbook` after a cost approval |
+| An ad made for their brand | `quote_steal_ad`, ask, then `steal_ad` |
+
+Not for managing the user's own ad account or reading its performance.
+
+## Reply style
+
+- Say what you found in plain words: "running for 90 days", "started this week". No ids, scores or tool names.
+- Results are a capped sample. Say "a sample", never "all their ads". Do not give totals.
+- Call `show_ad_gallery` once when there are results, never for an empty search.
+- Run length is a signal that an ad has lasted, not proof it made money.
+- If a search is empty, widen once and then say so.
+
+Spend and safety rules: see the stealads-spend-and-safety rule.

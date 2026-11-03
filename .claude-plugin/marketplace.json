@@ -1,0 +1,14 @@
+{
+  "name": "stealads",
+  "description": "StealAds: ad research for AI agents",
+  "owner": {
+    "name": "Matt Berman"
+  },
+  "plugins": [
+    {
+      "name": "stealads",
+      "source": "./",
+      "description": "Competitor ads, winning ads and longest-running ads on Meta, plus a way to adapt a winning ad for your brand."
+    }
+  ]
+}

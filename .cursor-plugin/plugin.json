@@ -1,0 +1,34 @@
+{
+  "name": "stealads",
+  "displayName": "StealAds: ad research for AI agents",
+  "description": "Research competitor ads on Meta, find winning and longest-running ads in any category, and adapt a winning ad for your brand, from Cursor, Claude, ChatGPT and Codex.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Matt Berman"
+  },
+  "publisher": "StealAds",
+  "homepage": "https://stealads.ai",
+  "repository": "https://github.com/TheMattBerman/ads-mcp",
+  "license": "MIT",
+  "logo": "assets/logo.svg",
+  "category": "marketing",
+  "keywords": [
+    "ad library",
+    "meta ad library",
+    "competitor ads",
+    "ad research",
+    "ad spy",
+    "facebook ads",
+    "winning ads",
+    "swipe file",
+    "creative strategy",
+    "mcp"
+  ],
+  "tags": [
+    "advertising",
+    "marketing",
+    "competitor-research",
+    "mcp",
+    "skills"
+  ]
+}

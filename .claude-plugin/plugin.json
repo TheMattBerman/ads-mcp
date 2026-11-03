@@ -1,0 +1,17 @@
+{
+  "name": "stealads",
+  "description": "Research competitor ads on Meta, find winning and longest-running ads, and adapt a winning ad for your brand.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Matt Berman"
+  },
+  "homepage": "https://stealads.ai",
+  "repository": "https://github.com/TheMattBerman/ads-mcp",
+  "license": "MIT",
+  "keywords": [
+    "ad library",
+    "competitor ads",
+    "ad research",
+    "facebook ads"
+  ]
+}
