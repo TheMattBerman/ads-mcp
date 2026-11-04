@@ -13,9 +13,15 @@ Your agent sees the exact tool names and descriptions when it connects. This pag
 | Weekly drop | Check whether this week's Monday drop arrived and its status |
 | Save | Save ads to a swipe file and organize them into collections |
 | Brands | See the brands in your account |
-| Make an ad | Check the cost, approve it, make the ad, and receive the finished image |
+| Make an ad | Check the cost and approve it before anything is made. On the Claude address (`https://mcp.stealads.ai/mcp/claude`) this step is a link that opens the ad in the StealAds app instead |
 | Account | Check your credits and the connected account |
+| Help | Ask for help, report a problem or request a feature |
 
 Searches return a capped number of results per call. There is no bulk export and no library total.
 
 Permissions: **read** for searching and viewing, **write** for saving and tracking, **spend** for anything that uses credits. You approve these when you connect and can revoke them in StealAds Settings.
+
+## Two addresses
+
+- `https://mcp.stealads.ai/mcp` offers the full set of tools.
+- `https://mcp.stealads.ai/mcp/claude` is the directory profile for Claude: research, tracking, saved ads, copy and brand tools, support, and a hand-off link for making an ad. It does not generate images.

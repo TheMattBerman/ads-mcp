@@ -2,7 +2,7 @@
   "name": "stealads",
   "displayName": "StealAds: ad research for AI agents",
   "description": "Research competitor ads on Meta, find winning and longest-running ads in any category, and adapt a winning ad for your brand, from Cursor, Claude, ChatGPT and Codex.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
     "name": "Matt Berman"
   },

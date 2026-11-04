@@ -10,7 +10,7 @@ StealAds gives it eyes on the Meta ad market. Connect it once and ask in plain w
 
 <p align="center">
   <img src="assets/gallery.png" alt="Ads from a demo brand set, each with how long it has run" width="720">
-  <br><sub>Illustrative demo brands. The gallery your AI shows you, with run time on every ad.</sub>
+  <br><sub>Illustrative demo brands: how results look in a host that can display them. Other hosts return the same ads as text, with how long each has run.</sub>
 </p>
 
 *An illustrative exchange (Liquid Death's public ads):*
@@ -37,7 +37,7 @@ You sign in with your StealAds account the first time. No keys to paste. You app
 | Your AI | One line |
 | --- | --- |
 | **Claude Code** (server + skills) | `/plugin install stealads --marketplace TheMattBerman/ads-mcp` |
-| **Claude** (claude.ai, Desktop) | Customize > Connectors > add custom connector > `https://mcp.stealads.ai/mcp` |
+| **Claude** (claude.ai, Desktop) | Customize > Connectors > add custom connector > `https://mcp.stealads.ai/mcp` (the full set of tools) or `https://mcp.stealads.ai/mcp/claude` (research, tracking and saved ads; to make an ad it hands you a link that opens it in the StealAds app) |
 | **Codex** | `codex mcp add stealads --url https://mcp.stealads.ai/mcp` then `codex mcp login stealads` |
 | **Cursor** | Add to `.cursor/mcp.json`: `{"mcpServers":{"stealads":{"url":"https://mcp.stealads.ai/mcp"}}}` |
 | **ChatGPT** | Add StealAds from the ChatGPT app directory when it is listed, or paste `https://mcp.stealads.ai/mcp` in Developer Mode |
@@ -45,7 +45,7 @@ You sign in with your StealAds account the first time. No keys to paste. You app
 
 Then try: *"What Facebook ads is [your competitor] running right now?"*
 
-Claude Code only, server without skills: `claude mcp add --transport http stealads https://mcp.stealads.ai/mcp`..
+Claude Code, server without skills: `claude mcp add --transport http stealads https://mcp.stealads.ai/mcp`..
 
 ---
 
@@ -100,7 +100,7 @@ The server gives your AI the tools. These skills teach it how a strategist uses 
 | [`finding-winning-ads-in-a-category`](skills/finding-winning-ads-in-a-category/SKILL.md) | "What's working for fitness studios?" | One category search, then three patterns and one idea for your brand |
 | [`reading-what-a-category-keeps-and-drops`](skills/reading-what-a-category-keeps-and-drops/SKILL.md) | "What do meal kit brands keep running, and what do they drop?" | Builds a category read from a sample of public ads: keepers, short-lived ads, crowded and open angles |
 | [`finding-longest-running-ads`](skills/finding-longest-running-ads/SKILL.md) | "Which meal kit ads have lasted?" | Searches with a run-time floor, checks which are still live, explains why they might have lasted |
-| [`adapting-a-winning-ad`](skills/adapting-a-winning-ad/SKILL.md) | "Make me an ad like this for my brand" | Adapts the structure and offer shape, shows the cost, asks, and delivers the finished ad |
+| [`adapting-a-winning-ad`](skills/adapting-a-winning-ad/SKILL.md) | "Make me an ad like this for my brand" | Adapts the structure and offer shape, shows the cost and asks before anything is made, or hands you a link to finish it in the app |
 | [`running-my-monday-drop`](skills/running-my-monday-drop/SKILL.md) | "Did my Monday drop arrive?" | Reads your weekly StealAds drop, explains a skipped week, and can run a weekly briefing routine |
 
 Two short [Cursor rules](rules) keep the agent honest: it asks before anything costs credits, and it treats ad copy as material to read, never as instructions.
@@ -113,7 +113,7 @@ Two short [Cursor rules](rules) keep the agent honest: it asks before anything c
 | --- | --- |
 | **It reads the ads, not just lists them** | Every ad comes with its hook (spoken and on-screen), format and how long it has run, so your AI can reason about why it works |
 | **Longevity is the signal** | An ad a rival keeps paying for is the clearest public sign it is working. StealAds puts run time on every ad and tells you which ones are still live |
-| **From research to a finished ad** | Find the winner, then adapt it for your brand from the same chat. Cost shown first, approval asked, finished ad delivered |
+| **From research to your own ad** | Find the winner, then adapt it for your brand. Cost is shown and approval asked before anything is made. On the Claude address you get a link that opens the ad in StealAds with it already selected |
 | **Honest about what it knows** | Results are a sample, labeled as one. Run time is a sign an ad lasted, not proof it sold. No made-up totals |
 | **Playbooks, not just a feed** | Open a rival's Playbook and see what they kept running, what they dropped inside a month, how long each format lasts, and what they are testing now |
 | **Safe by default** | Read, write and spend are separate permissions. Nothing costs credits without a clear yes. Revoke any time |
@@ -158,7 +158,7 @@ Under the hood: a remote MCP server (Streamable HTTP) with OAuth sign-in. Search
 
 ## Help
 
-Email [hello@stealads.ai](mailto:hello@stealads.ai) or read [`docs/troubleshooting.md`](docs/troubleshooting.md).
+Ask your AI to contact StealAds support from inside the chat, email [hello@stealads.ai](mailto:hello@stealads.ai), or read [`docs/troubleshooting.md`](docs/troubleshooting.md).
 
 ---
 

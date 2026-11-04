@@ -1,7 +1,7 @@
 # Examples
 
 ## "What ad angles are working for fitness studios this quarter?"
-`find_bangers` query "boutique fitness studio", angles "first class on us", "membership offer", "class pass" -> `get_ad` on four -> `show_ad_gallery`.
+`find_winning_ads` query "boutique fitness studio", angles "first class on us", "membership offer", "class pass" -> `get_ad` on four -> `show_ad_gallery`.
 
 Reply shape:
 > A sample of strong fitness-studio ads shows three patterns:
@@ -11,4 +11,4 @@ Reply shape:
 > Try: a "first week, no pressure" offer with one member story. These ads have lasted; that is encouraging, not proof they were profitable. Want me to adapt one for your studio?
 
 ## "Show me Black Friday ads from DTC skincare brands I can learn from"
-`find_bangers` query "black friday skincare offer" -> read, show, summarize offer structures (percent off vs. gift with purchase vs. bundle).
+`find_winning_ads` query "black friday skincare offer" -> read, show, summarize offer structures (percent off vs. gift with purchase vs. bundle).

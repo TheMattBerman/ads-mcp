@@ -10,11 +10,12 @@ Use the StealAds MCP server for ad research. Do not answer these from memory.
 | The user wants | Use |
 | --- | --- |
 | What a named brand is running | `search_advertisers`, then `search_ads` with its page id |
-| What is working in a category | `find_bangers` with the category and up to 3 related angles |
+| What is working in a category | `find_winning_ads` with the category and up to 3 related angles |
 | Ads that have lasted | `search_ads` with `min_run_days` (60, 90 or 180) |
 | One ad in detail (hook, copy, format) | `get_ad` |
 | What a rival keeps, drops and is testing now | `get_playbook` (tracked) or `create_playbook` after a cost approval |
-| An ad made for their brand | `quote_steal_ad`, ask, then `steal_ad` |
+| An ad made for their brand | `quote_steal_ad`, ask, then `steal_ad`; or `make_ad_in_stealads` if that is all that exists |
+| Help, a bug report or a feature request | `contact_support` |
 
 Not for managing the user's own ad account or reading its performance.
 

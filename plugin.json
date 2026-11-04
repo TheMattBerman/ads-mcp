@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "stealads",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Research competitor ads on Meta, find winning and longest-running ads in any category, and adapt a winning ad for your brand.",
   "author": {
     "name": "Matt Berman"

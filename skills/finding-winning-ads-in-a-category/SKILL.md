@@ -19,7 +19,7 @@ Answers "what is working in my category?" with StealAds (StealAds). For one name
 
 **1. Pin down the category.** Use what the user said. If they have a saved brand, call `list_brands` and use its industry; otherwise ask one question: "What do you sell, and who to?" Do not ask more than that before searching.
 
-**2. Run one category search.** Call `find_bangers` with the category or product as `query`, plus up to three `search_angles` that are related products, offers or advertiser names (for example for "meal kits": "healthy dinner delivery", "weekly subscription box"). For audience-specific asks add `buyer` and `audience`. Seasonal asks ("Black Friday") go into `query` as plain words, for example "black friday skincare offer". One search is usually enough.
+**2. Run one category search.** Call `find_winning_ads` with the category or product as `query`, plus up to three `search_angles` that are related products, offers or advertiser names (for example for "meal kits": "healthy dinner delivery", "weekly subscription box"). For audience-specific asks add `buyer` and `audience`. Seasonal asks ("Black Friday") go into `query` as plain words, for example "black friday skincare offer". One search is usually enough.
 
 **3. Pick and read.** The results arrive ranked with strength and run-length signals. Choose 5-8 that differ in angle. Call `get_ad` on the 3-4 you will quote. Cautioned ads (one-off, partner or promotional) stay in the list but rank lower; mention them only if relevant.
 
