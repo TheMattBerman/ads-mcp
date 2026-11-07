@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.2.1
+- Added `glama.json` so Glama can list the server, and `gemini-extension.json` so Gemini CLI can install it as an extension (remote `https://mcp.stealads.ai/mcp`).
+- `assets/logo.svg` is now the StealAds mark the site uses as its icon, so the Cursor listing matches stealads.ai.
+- Manifests bumped to 1.2.1.
+
 ## 1.2.0
 - New skill `checking-new-rival-ads`: reads the ads your tracked rivals started running since a date (seven days by default, 30 at most) with `list_new_competitor_ads`, and writes a short weekly report. "New" means first seen by StealAds, not the launch date.
 - `researching-competitor-ads` points to the new skill for "what did they launch lately".

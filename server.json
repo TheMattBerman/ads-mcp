@@ -3,7 +3,7 @@
   "name": "ai.stealads/stealads",
   "title": "StealAds",
   "description": "Search competitor Meta ads, find winning and longest-running ads, and adapt one for your brand.",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "websiteUrl": "https://stealads.ai",
   "repository": {
     "url": "https://github.com/TheMattBerman/ads-mcp",
