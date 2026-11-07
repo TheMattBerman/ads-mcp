@@ -21,6 +21,11 @@
 - Make me an ad like this one for my brand.
 - Take this ad and make a version for my coffee brand. What will it cost?
 
+## What rivals launched
+- What did my competitors launch this week?
+- Which of my tracked rivals added video ads in the last 30 days?
+- Give me a table of the ads Rival Co is running.
+
 ## Keep track
 - Save these ads to a Black Friday collection.
 - Track my three biggest competitors.

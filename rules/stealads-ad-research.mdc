@@ -13,8 +13,11 @@ Use the StealAds MCP server for ad research. Do not answer these from memory.
 | What is working in a category | `find_winning_ads` with the category and up to 3 related angles |
 | Ads that have lasted | `search_ads` with `min_run_days` (60, 90 or 180) |
 | One ad in detail (hook, copy, format) | `get_ad` |
+| What tracked rivals launched lately | `list_new_competitor_ads` with the brand (seven days by default, 30 at most) |
+| A rival's ads as a table | `list_tracked_rival_ads` or `get_competitor_analysis` with `response_format: "table"` (tracked rivals only) |
 | What a rival keeps, drops and is testing now | `get_playbook` (tracked) or `create_playbook` after a cost approval |
 | An ad made for their brand | `quote_steal_ad`, ask, then `steal_ad`; or `make_ad_in_stealads` if that is all that exists |
+| What this connection can do and its limits | `get_capabilities` |
 | Help, a bug report or a feature request | `contact_support` |
 
 Not for managing the user's own ad account or reading its performance.

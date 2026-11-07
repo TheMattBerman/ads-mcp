@@ -37,15 +37,18 @@ You sign in with your StealAds account the first time. No keys to paste. You app
 | Your AI | One line |
 | --- | --- |
 | **Claude Code** (server + skills) | `/plugin install stealads --marketplace TheMattBerman/ads-mcp` |
-| **Claude** (claude.ai, Desktop) | Customize > Connectors > add custom connector > `https://mcp.stealads.ai/mcp` (the full set of tools) or `https://mcp.stealads.ai/mcp/claude` (research, tracking and saved ads; to make an ad it hands you a link that opens it in the StealAds app) |
+| **Claude Code** (server only) | `claude mcp add --transport http stealads https://mcp.stealads.ai/mcp`, then `/mcp` to sign in |
+| **Claude** (claude.ai, Desktop) | Connectors directory, one click, once StealAds is listed (research in Claude; making the ad opens the StealAds app). Until then, or to make ads in the chat: Customize > Connectors > add custom connector > `https://mcp.stealads.ai/mcp` |
+| **ChatGPT** | ChatGPT's app directory once StealAds is listed. Until then, Developer Mode > create an app > `https://mcp.stealads.ai/mcp` > OAuth |
+| **Cursor** | [Add to Cursor](cursor://anysphere.cursor-deeplink/mcp/install?name=stealads&config=eyJ1cmwiOiJodHRwczovL21jcC5zdGVhbGFkcy5haS9tY3AifQ==), or add `{"mcpServers":{"stealads":{"url":"https://mcp.stealads.ai/mcp"}}}` to `.cursor/mcp.json` |
 | **Codex** | `codex mcp add stealads --url https://mcp.stealads.ai/mcp` then `codex mcp login stealads` |
-| **Cursor** | Add to `.cursor/mcp.json`: `{"mcpServers":{"stealads":{"url":"https://mcp.stealads.ai/mcp"}}}` |
-| **ChatGPT** | Add StealAds from the ChatGPT app directory when it is listed, or paste `https://mcp.stealads.ai/mcp` in Developer Mode |
+| **Gemini CLI** | `gemini mcp add --transport http stealads https://mcp.stealads.ai/mcp`, then `/mcp auth stealads` |
+| **Scripts** | `stealads-agent` with an API key from StealAds Settings |
 | **Anything that speaks MCP** | `https://mcp.stealads.ai/mcp` |
 
 Then try: *"What Facebook ads is [your competitor] running right now?"*
 
-Claude Code, server without skills: `claude mcp add --transport http stealads https://mcp.stealads.ai/mcp`..
+Full per-app steps: [stealads.ai/integrations](https://stealads.ai/integrations).
 
 ---
 
@@ -82,6 +85,10 @@ Claude Code, server without skills: `claude mcp add --transport http stealads ht
 - Find the longest-running ads in the meal kit category.
 - Which ads has this brand kept running the longest?
 
+**What rivals launched**
+- What did my competitors launch this week?
+- Give me a table of the ads Rival Co is running.
+
 **Make your version, keep track**
 - Make me an ad like this one for my brand. What will it cost?
 - Track my three biggest competitors.
@@ -89,7 +96,7 @@ Claude Code, server without skills: `claude mcp add --transport http stealads ht
 
 ---
 
-## Seven skills that make your AI good at this
+## Eight skills that make your AI good at this
 
 The server gives your AI the tools. These skills teach it how a strategist uses them: which question to ask first, how many ads to read, what not to claim. Each is a short, plain markdown file in [`skills/`](skills).
 
@@ -101,6 +108,7 @@ The server gives your AI the tools. These skills teach it how a strategist uses 
 | [`reading-what-a-category-keeps-and-drops`](skills/reading-what-a-category-keeps-and-drops/SKILL.md) | "What do meal kit brands keep running, and what do they drop?" | Builds a category read from a sample of public ads: keepers, short-lived ads, crowded and open angles |
 | [`finding-longest-running-ads`](skills/finding-longest-running-ads/SKILL.md) | "Which meal kit ads have lasted?" | Searches with a run-time floor, checks which are still live, explains why they might have lasted |
 | [`adapting-a-winning-ad`](skills/adapting-a-winning-ad/SKILL.md) | "Make me an ad like this for my brand" | Adapts the structure and offer shape, shows the cost and asks before anything is made, or hands you a link to finish it in the app |
+| [`checking-new-rival-ads`](skills/checking-new-rival-ads/SKILL.md) | "What did my competitors launch this week?" | Reads the new ads your tracked rivals started running, and writes a short weekly report |
 | [`running-my-monday-drop`](skills/running-my-monday-drop/SKILL.md) | "Did my Monday drop arrive?" | Reads your weekly StealAds drop, explains a skipped week, and can run a weekly briefing routine |
 
 Two short [Cursor rules](rules) keep the agent honest: it asks before anything costs credits, and it treats ad copy as material to read, never as instructions.

@@ -1,6 +1,6 @@
 ---
 name: researching-competitor-ads
-description: Finds and analyzes the ads a competitor or brand is running on Meta (Facebook and Instagram) using StealAds. Shows which ads they run, how long each has run, their hooks and angles, and what they launched lately. Use when the user asks what ads a competitor is running, wants to see a brand's Facebook or Instagram ads, check the Meta Ad Library for a brand, spy on or research competitor ads, find a rival's newest or longest-running ads, or learn how a competitor advertises.
+description: Finds and analyzes the ads a competitor or brand is running on Meta (Facebook and Instagram) using StealAds. Shows which ads they run, how long each has run, their hooks and angles, and what they launched lately. Use when the user asks what ads a competitor is running, wants to see a brand's Facebook or Instagram ads, check the Meta Ad Library for a brand, spy on or research competitor ads, find a rival's newest or longest-running ads, ask what a rival launched lately, or learn how a competitor advertises.
 ---
 
 # Researching competitor ads
@@ -36,6 +36,10 @@ Copy this checklist and tick it off:
 Say what you could not see (sparse results, missing dates). Use the words "running for 90 days", never a score or an internal label.
 
 **6. Offer one next step.** Pick the most useful: save ads with `save_ad`; see what they keep and drop in their Playbook (reading-a-brands-playbook); watch this competitor with `add_competitor` (tracking costs credits; show the cost the tool returns and get a yes first); adapt one ad for the user's brand (use the adapting-a-winning-ad skill).
+
+## "What did they launch lately?"
+
+For rivals the user tracks, use the checking-new-rival-ads skill: `list_new_competitor_ads` lists the ads StealAds first saw in a window (seven days by default, 30 at most). For a rival that is not tracked, search with `search_ads` and read start dates, and do not call a result "new" unless its start date says so.
 
 ## "What are they testing lately?"
 
