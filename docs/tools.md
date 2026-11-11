@@ -6,7 +6,8 @@ Your agent sees the exact tool names and descriptions when it connects. This pag
 | --- | --- |
 | Find an advertiser | Matches a brand name or website to an advertiser so its ads can be searched |
 | Search ads | A capped sample of public Meta ads by brand, keywords, industry, format, hook, minimum run time and audience, with the hook and run length for each ad |
-| Find winning ads in a category | A ranked sample of strong, long-running ads for a category and related angles |
+| Find long-running ads in a category | A category sample of ads with observed delivery evidence (long-running) for a category and related angles, without implying sales performance |
+| Summarize rival ad patterns | Supported patterns plus source ads from your tracked rivals, or an optional category sample |
 | Read one ad | The hook (spoken and on-screen), copy, format and how long it has run |
 | Show ads | A gallery of the ads you chose (in clients that can display one) |
 | Competitors | Add a rival, see which rivals you track (with read-only flags for stale, off-category and possible duplicate rivals), read an analysis of how they advertise, open their Playbook (what they keep, drop and are testing), check tracking status |

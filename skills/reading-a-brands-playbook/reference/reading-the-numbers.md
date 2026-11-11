@@ -7,7 +7,7 @@
 - Small samples
 
 ## The 30-day line
-An ad live 30 days or more has been paid for through a full cycle of testing. That is why it separates winners from tests. It is a public signal, not an internal metric.
+An ad live 30 days or more has been paid for through a full cycle of testing. That is why it separates ads that lasted from short tests. It is a public signal, not an internal metric.
 
 ## Piles
 | Pile | Meaning | Say it as |

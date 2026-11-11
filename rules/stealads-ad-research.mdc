@@ -1,5 +1,5 @@
 ---
-description: Use when the user asks about competitor ads, the Meta or Facebook Ad Library, ads a brand is running, winning or longest-running ads in a category, ad hooks or angles, swipe files, Black Friday ad examples, or wants an existing ad adapted for their brand. Routes to the StealAds MCP tools.
+description: Use when the user asks about competitor ads, the Meta or Facebook Ad Library, ads a brand is running, long-running ads in a category, ad hooks or angles, swipe files, Black Friday ad examples, or wants an existing ad adapted for their brand. Routes to the StealAds MCP tools.
 alwaysApply: false
 ---
 
@@ -10,7 +10,7 @@ Use the StealAds MCP server for ad research. Do not answer these from memory.
 | The user wants | Use |
 | --- | --- |
 | What a named brand is running | `search_advertisers`, then `search_ads` with its page id |
-| What is working in a category | `find_winning_ads` with the category and up to 3 related angles |
+| Long-running ads in a category | `find_long_running_ads` with the category and up to 3 related angles |
 | Ads that have lasted | `search_ads` with `min_run_days` (60, 90 or 180) |
 | One ad in detail (hook, copy, format) | `get_ad` |
 | What tracked rivals launched lately | `list_new_competitor_ads` with the brand (seven days by default, 30 at most) |

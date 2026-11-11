@@ -35,7 +35,7 @@ Copy this checklist and tick it off:
 - What looks new (recent start dates).
 Say what you could not see (sparse results, missing dates). Use the words "running for 90 days", never a score or an internal label.
 
-**6. Offer one next step.** Pick the most useful: save ads with `save_ad`; see what they keep and drop in their Playbook (reading-a-brands-playbook); watch this competitor with `add_competitor` (tracking costs credits; show the cost the tool returns and get a yes first); adapt one ad for the user's brand (use the adapting-a-winning-ad skill).
+**6. Offer one next step.** Pick the most useful: save ads with `save_ad`; see what they keep and drop in their Playbook (reading-a-brands-playbook); watch this competitor with `add_competitor` (tracking costs credits; show the cost the tool returns and get a yes first); adapt one ad for the user's brand (use the adapting-a-proven-ad skill).
 
 ## "What did they launch lately?"
 

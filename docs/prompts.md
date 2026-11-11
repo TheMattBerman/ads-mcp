@@ -7,17 +7,17 @@
 - What is my competitor testing right now?
 - Which formats does this competitor keep running, and which did they drop?
 
-## What is working in a category
-- What ad angles are working for fitness studios?
-- What are the best-performing ads in supplements? I want hooks to learn from.
+## Long-running ads in a category
+- Which ad angles have fitness studios kept running?
+- What are the long-running ads in supplements? I want hooks to learn from.
 - Show me Black Friday ads from skincare brands I can learn from.
-- Pull strong video ads for B2B software that open with a spoken hook.
+- Pull long-running video ads for B2B software that open with a spoken hook.
 
 ## Longest-running ads
 - Find the longest-running ads in the meal kit category.
 - Which ads has this brand kept running the longest?
 
-## Adapt a winning ad
+## Adapt a long-running ad
 - Make me an ad like this one for my brand.
 - Take this ad and make a version for my coffee brand. What will it cost?
 

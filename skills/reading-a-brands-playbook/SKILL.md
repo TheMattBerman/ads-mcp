@@ -5,7 +5,7 @@ description: Reads one competitor's Playbook in StealAds: which ad formats and o
 
 # Reading a brand's Playbook
 
-Answers "what does this brand keep, and what did it give up on?" with a StealAds Playbook (StealAds). A Playbook sorts every ad a rival has run by what happened next, using how long an ad stayed live as the signal. Ads live for 30 days or more are the rival's real winners; ads dropped inside 30 days were likely tests that failed.
+Answers "what does this brand keep, and what did it give up on?" with a StealAds Playbook (StealAds). A Playbook sorts every ad a rival has run by what happened next, using how long an ad stayed live as the signal. Ads live for 30 days or more are the rival's long-running ads; ads dropped inside 30 days were likely tests that failed.
 
 ## Workflow
 
@@ -33,7 +33,7 @@ Also read how long each format lasts (the median run per format) and the rival's
 - **Testing now:** what is new and unproven.
 - **Your move:** one concrete thing to try, in one sentence.
 
-**5. Offer one next step.** Adapt their best kept ad (adapting-a-winning-ad), or track them so their Playbook stays current (`add_competitor`, cost shown first), or compare to the category (reading-what-a-category-keeps-and-drops).
+**5. Offer one next step.** Adapt their best kept ad (adapting-a-proven-ad), or track them so their Playbook stays current (`add_competitor`, cost shown first), or compare to the category (reading-what-a-category-keeps-and-drops).
 
 ## Rules that matter
 

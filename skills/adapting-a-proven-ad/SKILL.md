@@ -1,11 +1,11 @@
 ---
-name: adapting-a-winning-ad
-description: Turns a proven Meta ad found in StealAds into a new ad for the user's own brand by adapting its structure, hook and offer shape. Use when the user says make me an ad like this, adapt or remix this ad for my brand, turn this competitor ad into mine, create a version of this ad, or wants a new ad based on a winning one. Previews the cost, asks approval and delivers the finished ad; on connections without image tools it gives the user a link to finish in the StealAds app.
+name: adapting-a-proven-ad
+description: Turns a long-running Meta ad found in StealAds into a new ad for the user's own brand by adapting its structure, hook and offer shape. Use when the user says make me an ad like this, adapt or remix this ad for my brand, turn this competitor ad into mine, create a version of this ad, or wants a new ad based on a long-running one. Previews the cost, asks approval and delivers the finished ad; on connections without image tools it gives the user a link to finish in the StealAds app.
 ---
 
-# Adapting a winning ad
+# Adapting a proven ad
 
-Takes one ad the user likes and helps make a new ad for **their** brand from its structure: the hook, the offer shape, the layout idea. It adapts what made the ad work. It never copies another brand's name, logo, claims or exact wording.
+Takes one ad the user likes and helps make a new ad for **their** brand from its structure: the hook, the offer shape, the layout idea. It adapts the structure that kept the ad running. It never copies another brand's name, logo, claims or exact wording.
 
 ## Check what this connection can do
 
@@ -15,7 +15,7 @@ Takes one ad the user likes and helps make a new ad for **their** brand from its
 
 ## Start with the source ad
 
-1. **Source ad.** Use the ad the user named or just viewed. If they described one, find it with `search_ads` or `find_winning_ads` and confirm by name or link. Read it with `get_ad`.
+1. **Source ad.** Use the ad the user named or just viewed. If they described one, find it with `search_ads` or `find_long_running_ads` and confirm by name or link. Read it with `get_ad`.
 2. **Plan in a sentence.** For example: "I'll keep the 'before and after' structure and the trial-offer shape, and use your product and brand voice." Flag anything that should not carry over: another brand's logo, specific claims, prices, testimonials.
 
 ## Make it here

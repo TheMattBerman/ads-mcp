@@ -75,8 +75,8 @@ Full per-app steps: [stealads.ai/integrations](https://stealads.ai/integrations)
 - Which formats does this competitor keep running, and which did they drop?
 - What is my competitor testing right now?
 
-**What's working in your category**
-- What ad angles are working for fitness studios?
+**Long-running ads in your category**
+- Which ad angles have fitness studios kept running?
 - What are the best-performing ads in supplements? I want hooks to learn from.
 - Show me Black Friday ads from skincare brands I can learn from.
 - Pull strong video ads for B2B software that open with a spoken hook.
@@ -104,10 +104,10 @@ The server gives your AI the tools. These skills teach it how a strategist uses 
 | --- | --- | --- |
 | [`researching-competitor-ads`](skills/researching-competitor-ads/SKILL.md) | "What ads is Gymshark running?" | Finds the advertiser, searches their ads, reads the best few, and tells you what they push, what repeats and what is new |
 | [`reading-a-brands-playbook`](skills/reading-a-brands-playbook/SKILL.md) | "What formats does this rival keep, and what did they drop?" | Opens the rival's Playbook: ads kept 30+ days, ads dropped inside 30 days, how long each format lasts, what is being tested now |
-| [`finding-winning-ads-in-a-category`](skills/finding-winning-ads-in-a-category/SKILL.md) | "What's working for fitness studios?" | One category search, then three patterns and one idea for your brand |
+| [`finding-long-running-ads-in-a-category`](skills/finding-long-running-ads-in-a-category/SKILL.md) | "Which fitness studio ads have kept running?" | One category search, then three patterns and one idea for your brand |
 | [`reading-what-a-category-keeps-and-drops`](skills/reading-what-a-category-keeps-and-drops/SKILL.md) | "What do meal kit brands keep running, and what do they drop?" | Builds a category read from a sample of public ads: keepers, short-lived ads, crowded and open angles |
 | [`finding-longest-running-ads`](skills/finding-longest-running-ads/SKILL.md) | "Which meal kit ads have lasted?" | Searches with a run-time floor, checks which are still live, explains why they might have lasted |
-| [`adapting-a-winning-ad`](skills/adapting-a-winning-ad/SKILL.md) | "Make me an ad like this for my brand" | Adapts the structure and offer shape, shows the cost and asks before anything is made, or hands you a link to finish it in the app |
+| [`adapting-a-proven-ad`](skills/adapting-a-proven-ad/SKILL.md) | "Make me an ad like this for my brand" | Adapts the structure and offer shape, shows the cost and asks before anything is made, or hands you a link to finish it in the app |
 | [`checking-new-rival-ads`](skills/checking-new-rival-ads/SKILL.md) | "What did my competitors launch this week?" | Reads the new ads your tracked rivals started running, and writes a short weekly report |
 | [`running-my-monday-drop`](skills/running-my-monday-drop/SKILL.md) | "Did my Monday drop arrive?" | Reads your weekly StealAds drop, explains a skipped week, and can run a weekly briefing routine |
 
@@ -119,9 +119,9 @@ Two short [Cursor rules](rules) keep the agent honest: it asks before anything c
 
 | | |
 | --- | --- |
-| **It reads the ads, not just lists them** | Every ad comes with its hook (spoken and on-screen), format and how long it has run, so your AI can reason about why it works |
-| **Longevity is the signal** | An ad a rival keeps paying for is the clearest public sign it is working. StealAds puts run time on every ad and tells you which ones are still live |
-| **From research to your own ad** | Find the winner, then adapt it for your brand. Cost is shown and approval asked before anything is made. On the Claude address you get a link that opens the ad in StealAds with it already selected |
+| **It reads the ads, not just lists them** | Every ad comes with its hook (spoken and on-screen), format and how long it has run, so your AI can reason about why it lasted |
+| **Longevity is the signal** | An ad a rival keeps paying for is the clearest public sign it kept running. StealAds puts run time on every ad and tells you which ones are still live |
+| **From research to your own ad** | Find a long-running ad, then adapt it for your brand. Cost is shown and approval asked before anything is made. On the Claude address you get a link that opens the ad in StealAds with it already selected |
 | **Honest about what it knows** | Results are a sample, labeled as one. Run time is a sign an ad lasted, not proof it sold. No made-up totals |
 | **Playbooks, not just a feed** | Open a rival's Playbook and see what they kept running, what they dropped inside a month, how long each format lasts, and what they are testing now |
 | **Safe by default** | Read, write and spend are separate permissions. Nothing costs credits without a clear yes. Revoke any time |
@@ -143,7 +143,7 @@ Matt
 1. **Connect.** One address, sign in with StealAds.
 2. **Ask.** Plain words. Your AI picks the right tool.
 3. **Read.** Ads, hooks, run time, what is new, what lasted.
-4. **Act.** Save ads, watch rivals, adapt a winner into your own ad.
+4. **Act.** Save ads, watch rivals, adapt a long-running ad into your own.
 
 Under the hood: a remote MCP server (Streamable HTTP) with OAuth sign-in. Searches return a capped sample per request. There is no bulk export, and no library totals.
 

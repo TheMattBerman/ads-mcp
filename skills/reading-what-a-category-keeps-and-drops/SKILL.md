@@ -19,7 +19,7 @@ Answers "across my category, what do brands keep and what do they drop?" It appl
 
 **1. Category and brand.** Use the user's words. `list_brands` for their brand and industry. Ask one question if the category is unclear.
 
-**2. Kept ads.** Call `find_winning_ads` for the category with up to three related angles. Take the ads that have run 30+ days. These are the category's keepers.
+**2. Kept ads.** Call `find_long_running_ads` for the category with up to three related angles. Take the ads that have run 30+ days. These are the category's keepers.
 
 **3. The field.** Call `search_ads` for the same category with no run-time floor, one or two pages. Sort each ad: 30+ days or still running = kept; stopped inside 30 days = dropped; stopped after 30+ days = retired (often seasonal). Read the three to five most telling ads in each pile with `get_ad`. Two pages is enough; do not page to the end.
 
@@ -35,7 +35,7 @@ Answers "across my category, what do brands keep and what do they drop?" It appl
 - **Crowded vs open angles:** one of each.
 - **Your move:** one concrete test for the user's brand.
 - **Caveat:** a sample of public ads, not the whole category; longer run time means an ad lasted, not that it was profitable.
-Offer: look at one standout rival's Playbook (reading-a-brands-playbook), or adapt one kept ad (adapting-a-winning-ad).
+Offer: look at one standout rival's Playbook (reading-a-brands-playbook), or adapt one kept ad (adapting-a-proven-ad).
 
 ## Rules that matter
 

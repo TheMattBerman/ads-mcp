@@ -15,5 +15,5 @@
 ## How to say it
 - Good: "This one has been running for about four months."
 - Good: "It started in July and is still live."
-- Avoid: scores, internal band names, "winner", "proven to convert".
+- Avoid: scores, internal band names, "best performer", "proven to convert".
 - Dates come from the tool. If dates are missing for an ad, say "start date not available".

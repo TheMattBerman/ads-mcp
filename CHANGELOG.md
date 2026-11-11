@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.0
+- Tools renamed on the StealAds server: `find_winning_ads` is now `find_long_running_ads` (a category sample of ads with observed delivery evidence) and `get_what_works` is now `summarize_rival_ad_patterns` (supported patterns plus source ads from your tracked rivals, or an optional category sample). The old names still work as hidden aliases.
+- Skills renamed: `finding-winning-ads-in-a-category` is now `finding-long-running-ads-in-a-category`, and `adapting-a-winning-ad` is now `adapting-a-proven-ad`.
+- Wording made plainer across skills, docs, rules and manifests: "long-running", "patterns" and "still running" instead of promotional terms.
+- Manifests bumped to 1.3.0.
+
 ## 1.2.1
 - Added `glama.json` so Glama can list the server, and `gemini-extension.json` so Gemini CLI can install it as an extension (remote `https://mcp.stealads.ai/mcp`).
 - `assets/logo.svg` is now the StealAds mark the site uses as its icon, so the Cursor listing matches stealads.ai.
