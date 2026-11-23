@@ -1,6 +1,6 @@
 ---
 name: running-my-monday-drop
-description: Reads the user's weekly StealAds drop, the small set of fresh ad concepts Autopilot builds each week from their rivals, and explains it in plain words: whether this week's drop arrived, what is in it, why a week was skipped and how to fix that. Also sets up a weekly Monday briefing routine. Use when the user asks about their Monday drop, weekly ad ideas, Autopilot, this week's new ads, why no drop arrived, or wants a weekly competitor and ad-ideas briefing delivered automatically.
+description: "Reads the user's weekly StealAds drop, the small set of fresh ad concepts Autopilot builds each week from their rivals, and explains it in plain words: whether this week's drop arrived, what is in it, why a week was skipped and how to fix that. Also sets up a weekly Monday briefing routine. Use when the user asks about their Monday drop, weekly ad ideas, Autopilot, this week's new ads, why no drop arrived, or wants a weekly competitor and ad-ideas briefing delivered automatically."
 ---
 
 # Running my Monday drop

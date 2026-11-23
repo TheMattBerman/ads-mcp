@@ -1,6 +1,6 @@
 ---
 name: reading-a-brands-playbook
-description: Reads one competitor's Playbook in StealAds: which ad formats and opening lines they keep running, which they tested and dropped within weeks, how long each format tends to last, and what they are testing now. Use when the user asks what formats a brand runs, which hooks a competitor keeps, what a competitor tested and killed, what is working for one rival, or wants a creative strategist's read on a single brand before making ads.
+description: "Reads one competitor's Playbook in StealAds: which ad formats and opening lines they keep running, which they tested and dropped within weeks, how long each format tends to last, and what they are testing now. Use when the user asks what formats a brand runs, which hooks a competitor keeps, what a competitor tested and killed, what is working for one rival, or wants a creative strategist's read on a single brand before making ads."
 ---
 
 # Reading a brand's Playbook

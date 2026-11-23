@@ -1,6 +1,6 @@
 ---
 name: reading-what-a-category-keeps-and-drops
-description: Builds a category read from public ads in StealAds: which ad formats and opening lines brands in a category keep running, which they drop within weeks, how long each format tends to last, and what angles are crowded or open. Use when the user asks what formats work in their industry, what brands in a category keep versus kill, which hooks are overused or open, how to stand out from the category, or wants a category-level creative strategy read before planning ads.
+description: "Builds a category read from public ads in StealAds: which ad formats and opening lines brands in a category keep running, which they drop within weeks, how long each format tends to last, and what angles are crowded or open. Use when the user asks what formats work in their industry, what brands in a category keep versus kill, which hooks are overused or open, how to stand out from the category, or wants a category-level creative strategy read before planning ads."
 ---
 
 # Reading what a category keeps and drops

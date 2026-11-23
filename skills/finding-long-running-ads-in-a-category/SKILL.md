@@ -1,6 +1,6 @@
 ---
 name: finding-long-running-ads-in-a-category
-description: Pulls a sample of long-running Meta (Facebook and Instagram) ads in a product category or niche using StealAds and reads the patterns in them: hooks, angles, offers and formats. Use when the user asks which ads in their category or industry have been running a long time, wants long-running ads for inspiration, wants hooks or angles to learn from, wants Black Friday or seasonal ad examples, or asks what to make next based on what the market runs.
+description: "Pulls a sample of long-running Meta (Facebook and Instagram) ads in a product category or niche using StealAds and reads the patterns in them: hooks, angles, offers and formats. Use when the user asks which ads in their category or industry have been running a long time, wants long-running ads for inspiration, wants hooks or angles to learn from, wants Black Friday or seasonal ad examples, or asks what to make next based on what the market runs."
 ---
 
 # Finding long-running ads in a category
