@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.1
+- `plugin.json` marks the `stealads` server untrusted for Hermes (`extensions.com.nousresearch.hermes`), so Hermes asks you before any call that saves, tracks or spends credits, including scheduled and gateway runs.
+- Manifests bumped to 1.3.1.
+
 ## 1.3.0
 - Tools renamed on the StealAds server: `find_winning_ads` is now `find_long_running_ads` (a category sample of ads with observed delivery evidence) and `get_what_works` is now `summarize_rival_ad_patterns` (supported patterns plus source ads from your tracked rivals, or an optional category sample). The old names still work as hidden aliases.
 - Skills renamed: `finding-winning-ads-in-a-category` is now `finding-long-running-ads-in-a-category`, and `adapting-a-winning-ad` is now `adapting-a-proven-ad`.

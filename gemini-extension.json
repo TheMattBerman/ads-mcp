@@ -1,6 +1,6 @@
 {
   "name": "stealads",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Research competitor ads on Meta, find long-running ads, and adapt a long-running ad for your brand.",
   "mcpServers": {
     "stealads": {
